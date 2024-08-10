@@ -1,0 +1,208 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">
+		<title>Portal Agro</title>
+		<link href="assets/css/style.css" rel="stylesheet" />
+		<script type="text/javascript" src="assets/js/script.js"></script>
+	</head>
+	<body>
+		<div class="topo">
+			<div class="topoint">
+				<div class="topoleft">
+					<ul>
+						<li><a href="./" class="ativo">Home</a></li>
+						<li><a href="quem-somos">Quem Somos</a></li>
+						<li><a href="anuncie-aqui">Anuncie Aqui</a></li>
+						<li><a href="contato">Contato</a></li>
+					</ul>
+				</div>
+				<div class="toporight">
+					<input type="image" src="assets/images/lupa.png" border="0" width="26" height="26" />
+					<input type="text" name="busca" class="topobusca" placeholder="Busca..." />					
+					<a href=""><img src="assets/images/youtube.png" border="0" width="26" height="26" /></a>
+					<a href=""><img src="assets/images/twitter.png" border="0" width="26" height="26" /></a>
+					<a href=""><img src="assets/images/facebook.png" border="0" width="26" height="26" /></a>
+					<a href=""><img src="assets/images/googleplus.png" border="0" width="26" height="26" /></a>
+					<a href=""><img src="assets/images/rss.png" border="0" width="26" height="26" /></a>					
+				</div>
+			</div>
+		</div>
+		<div class="topo2">
+			<div class="topo2int">
+				<div class="logo">
+					<img src="assets/images/logo.png" border="0" width="230" />
+				</div>
+				<div class="banner"></div>
+			</div>
+		</div>
+		<div class="menu">
+			<div class="menuint">
+				<img src="assets/images/menu.png" border="0" width="40" height="40" class="menumobile" onclick="toggleMenu()" />
+				<ul id="menu">
+					<li><a href="./" class="ativo">Home</a></li>
+					<li><a href="./">Economia</a></li>
+					<li><a href="./">Geral</a></li>
+					<li>
+						<a href="./">Notícias</a>
+						<img src="assets/images/arrowdown.jpg" border="0" width="10" />
+						<div class="submenu">
+							<a href="./"><div class="submenuitem">Diário</div></a>
+							<a href="./"><div class="submenuitem">Semanal</div></a>
+							<a href="./"><div class="submenuitem">Mensal</div></a>
+							<a href="./"><div class="submenuitem">Notícias anteriores</div></a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="ultimasnoticias">
+			<div class="ultimasnoticiasint">
+				<div class="ultnoticiasarea">
+					<div class="ultnoticiastitulo">ÚLTIMAS NOTÍCIAS</div>
+					<div class="ultnoticiasnoticia">Programa da Copel, Cultivar Energia inaugura segunda horta comunitária em Londrina.</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="containerint">
+				<div class="leftside">
+					<div class="slideshow" id="slideshow">
+						<div class="slidebolinhas">
+							<div class="bolinha" onclick="mudarSlide(0)"></div>
+							<div class="bolinha" onclick="mudarSlide(1)"></div>
+							<div class="bolinha" onclick="mudarSlide(2)"></div>
+							<div class="bolinha" onclick="mudarSlide(3)"></div>
+						</div>
+						<div class="slideshowarea">
+							<a href="https://www.aen.pr.gov.br/Noticia/Programa-da-Copel-Cultivar-Energia-inaugura-segunda-horta-comunitaria-em-Londrina">
+								<div class="slide" style="background-image:url('https://www.aen.pr.gov.br/sites/default/arquivos_restritos/files/imagem/2024-08/66b36d033dfcbmundo_ideal_cultivar_energia_londrina.jpg')">
+									<div class="slideinfo">
+										<div class="slideinfo_titulo">Programa da Copel</div>
+										<div class="slideinfo_subtitulo">Inauguração de segunda horta comunitária em Londrina</div>
+									</div>
+								</div>
+							</a>
+							<div class="slide" style="background-image:url('https://cdn.acritica.net/img/pc/920/600/dn_arquivo/2024/08/hortas-capacitacaopmcgesenar2.jpeg')">
+								<div class="slideinfo">
+									<div class="slideinfo_titulo">Prefeitura capacita moradores para produção em hortas comunitárias.</div>
+									<div class="slideinfo_subtitulo">A iniciativa garante alimentos seguros e saudáveis para a comunidade, promovendo a segurança alimentar. - (Foto: Divulgação)</div>
+								</div>
+							</div>
+							<div class="slide" style="background-image:url('https://s2-g1.glbimg.com/OUHeVjCIZ9mWpB-Akdj9zkoKaDc=/0x0:640x360/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/8/e/yQrdYBRDKecdkqbDMMvg/12226786-640x360.jpg')">
+								<div class="slideinfo">
+									<div class="slideinfo_titulo">Hortas urbanas contribuem para o combate à fome em Curitiba.</div>
+									<div class="slideinfo_subtitulo">Hortas urbanas têm contribuído para o combate à fome em Curitiba — Foto: Reprodução</div>
+								</div>
+							</div>
+							<div class="slide" style="background-image:url('https://conteudo.imguol.com.br/c/entretenimento/f6/2023/09/12/horta-da-ong-cidades-sem-fome-no-bairro-de-sao-mateus-zona-leste-de-sao-paulo-1694538492951_v2_900x506.jpg.webp')">
+								<div class="slideinfo">
+									<div class="slideinfo_titulo">Como hortas comunitárias estão mudando alimentação na periferia de SP.</div>
+									<div class="slideinfo_subtitulo">Horta da ONG Cidades sem Fome. Imagem: Fellipe Abreu/Mongabay</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="widget">
+						<div class="widget_titulo">NOTÍCIAS</div>
+						<div class="widget_conteudo">
+							<div class="noticiaarea1">
+								<div class="noticiaitem noticiabig">
+									<div class="noticiaimg">
+										<img src="assets/images/ong.webp" border="0" width="80" height="80" />
+									</div>
+									<div class="noticiatitulo">A ONG Cidades sem Fome desenvolve projetos de agricultura em mais de 80 hortas urbanas e escolares.</div>
+									<div class="noticiainfo">Imagem: Fellipe Abreu/Mongabay</div>
+									<div class="noticiainfo">341 comentários</div>
+								</div>
+							</div>
+							<div class="noticiaarea2">
+									<div class="noticiaitem">
+										<div class="noticiaimg">
+											<img src="assets/images/pessoas.jpg" border="0" width="80" height="80" />
+										</div>
+										<div class="noticiatitulo">Programa da Copel, Cultivar Energia inaugura segunda horta comunitária em Londrina.</div>
+										<div class="noticiainfo">Foto: Copel</div>
+										<div class="noticiainfo">270 comentários</div>
+									</div>
+								</a>
+								<div class="noticiaitem">
+									<div class="noticiaimg">
+										<img src="assets/images/copel.jpg" border="0" width="80" height="80" />
+									</div>
+									<div class="noticiatitulo">A área tem 2.300 metros quadrados e está aberta a receber novos hortelões que queiram atuar na produção de verduras para uma alimentação familiar mais saudável ou para a geração de renda.</div>
+									<div class="noticiainfo"> Foto: Copel</div>
+									<div class="noticiainfo">198 comentários</div>
+								</div>
+							</div>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+
+					<div class="widget">
+						<div class="widget_titulo">GALERIA</div>
+						<div class="widget_conteudo">
+							<div class="noticiaarea1">
+								<div class="noticiaitem noticiabig">
+									<div class="noticiaimg">
+										<img src="assets/images/horta1.jpg" border="0" width="80" height="80" />
+									</div>
+									<div class="noticiatitulo">Hortas urbanas – História, Classificação, Benefícios e Perspectivas.</div>
+									<div class="noticiainfo">Imagem geradas por IA em Freepik</div>
+								</div>
+							</div>
+							<div class="noticiaarea2">
+								<div class="noticiaitem">
+									<div class="noticiaimg">
+										<img src="assets/images/horta2.jpg" border="0" width="80" height="80" />
+									</div>
+									<div class="noticiatitulo">A industrialização, que ao longo dos últimos duzentos anos provocou a migração de milhões de pessoas do campo para as cidades, foi um dos fatores da disseminação da agricultura comunitária urbana, as hortas urbanas. Premidos pelos altos preços dos alimentos nas épocas de crise econômica que se sucederam ao longo deste período, os novos moradores das cidades trouxeram consigo alguns dos conhecimentos do campo.</div>
+									<div class="noticiainfo">Designed by Freepik</div>
+								</div>
+							</div>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+
+				</div>
+				<div class="rightside">
+					<div class="widget">
+						<div class="widget_titulo">SOCIAL</div>
+						<div class="widget_conteudo">
+							<a href=""><img src="assets/images/youtube.png" border="0" width="26" height="26" /></a>
+							<a href=""><img src="assets/images/twitter.png" border="0" width="26" height="26" /></a>
+							<a href=""><img src="assets/images/facebook.png" border="0" width="26" height="26" /></a>
+							<a href=""><img src="assets/images/googleplus.png" border="0" width="26" height="26" /></a>
+							<a href=""><img src="assets/images/rss.png" border="0" width="26" height="26" /></a>
+						</div>
+					</div>
+					<div class="widget">
+						<div class="widget_titulo">ÚLTIMAS NOTÍCIAS</div>
+						<div class="widget_conteudo">
+							<div class="noticia_item">
+								<a href="./">Programa da Copel, Cultivar Energia inaugura segunda horta comunitária em Londrina.</a>
+							</div>
+							<div class="noticia_item">
+								<a href="./">Prefeitura de Campo Grande capacita moradores para melhorar produção em hortas comunitárias.</a>
+							</div>
+							<div class="noticia_item">
+								<a href="./">Hortas urbanas contribuem para o combate à fome e aumento de áreas verdes em Curitiba.</a>
+							</div>
+							<div class="noticia_item">
+								<a href="./">Como hortas comunitárias estão mudando alimentação na periferia.</a>
+							</div>
+							<div class="noticia_item">
+								<a href="./">Leitura recomendada: “Hortas Comunitárias Urbanas: promovendo a saúde e a segurança alimentar e nutricional nas cidades”.</a>
+							</div>
+						</div>
+					</div>
+					
+					</div>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
